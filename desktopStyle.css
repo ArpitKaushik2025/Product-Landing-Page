@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Header */
+/* Signup Offer */
+.signup-offer {
+  height: 2.5rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-offer p a {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.signup-offer i {
+  position: relative;
+  left: 25rem;
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 1.5rem;
+  margin-inline: auto;
+  height: 3rem;
+  width: 77.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-options {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-search input {
+  height: 3rem;
+  width: 36rem;
+  background-color: #f0f0f0;
+  border-radius: 2rem;
+  padding-inline: 2rem;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.fa-magnifying-glass,
+.fa-bars {
+  display: none;
+}
+
+.nav-user-options {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Main */
+/* Hero */
+.hero {
+  margin-top: 1.5rem;
+  background-image: url("./assets/hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 45rem;
+  padding-top: 5%;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-inline-start: 7.5%;
+}
+
+.hero p {
+  margin-inline-start: 7.5%;
+  opacity: 0.5;
+  margin-top: 1.5%;
+}
+
+.hero button {
+  margin-inline-start: 7.5%;
+  margin-top: 2%;
+  width: 13rem;
+  height: 3.25rem;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  border-radius: 5rem;
+  border: none;
+}
+
+.hero-stats {
+  display: flex;
+  margin-top: 2%;
+  gap: 1rem;
+  margin-inline-start: 7.5%;
+}
+
+.hero-stats div:first-child {
+  display: flex;
+}
+
+.hero-stats div div {
+  width: 12.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-stats h1 {
+  font-size: 2.5rem;
+}
+
+/* Mobile Hero */
+.mobile-hero {
+  display: none;
+}
+
+/* Brands */
+.top-brands {
+  height: 8rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* New Arrivals & Top Sellers */
+.brands-heading {
+  text-align: center;
+  margin: 5% 0 3% 0;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.brands-cards {
+  display: flex;
+  margin-inline: 7.5rem;
+  gap: 2rem;
+}
+
+.brands-cards div p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.brands-cards div p:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.brands-button {
+  margin-top: 3%;
+  margin-inline-start: 43%;
+  border: 0.25px solid black;
+  border-radius: 5rem;
+  width: 14rem;
+  height: 3.25rem;
+  background-color: white;
+}
+
+/* Dress Style */
+.dress-style {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  margin-top: 5%;
+  background-color: #f0f0f0;
+  width: 79rem;
+  border-radius: 2rem;
+  margin-inline: auto;
+}
+
+.dress-style-cards-row:nth-child(1) img {
+  margin-left: 4%;
+}
+
+.dress-style-cards-row:nth-child(2) img {
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+/* Happy Customers */
+.happy-customers-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78rem;
+  margin: 5% 0 3% 8%;
+}
+
+.happy-customer-arrows {
+  display: flex;
+  gap: 1rem;
+}
+
+.happy-customer-title {
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.happy-customers-body {
+  margin-left: 8%;
+  display: flex;
+}
+
+.happy-customers-body img {
+  margin-right: 2%;
+}
+
+/* Latest Offers */
+.latest-offers {
+  width: 79rem;
+  height: 11.25rem;
+  background-color: black;
+  color: white;
+  padding: 2.25rem 4rem;
+  margin: 4% 0 0 8%;
+  border-radius: 1rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-offers-options {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  gap: 0.5rem;
+}
+
+.latest-offers-options input,
+button {
+  text-align: center;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #f0f0f0;
+  margin-top: 10rem;
+  padding: 8% 8.5% 0 8%;
+}
+
+/* Hero */
+.footer-hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-company h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.footer-company p {
+  opacity: 0.5;
+  margin-top: 1.5rem;
+}
+
+/* Social Media Icons */
+.footer-company-social-media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.footer-hero-data {
+  line-height: 3rem;
+}
+
+.footer-hero-data p:nth-child(1) {
+  font-size: 1.25rem;
+}
+
+.footer-hero-data p:not(:nth-child(1)) {
+  opacity: 0.5;
+}
+
+/* Copyright & Details */
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5%;
+}
+
+.footer-end-data {
+  opacity: 0.5;
+}

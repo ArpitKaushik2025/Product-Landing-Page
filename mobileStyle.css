@@ -1,0 +1,219 @@
+@media (max-width: 390px) {
+  /* Signup Offer */
+  .signup-offer p {
+    font-size: 0.75rem;
+  }
+
+  /* Navbar */
+  .navbar {
+    width: auto;
+    margin-inline: 8%;
+  }
+
+  .nav-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-options,
+  .nav-search {
+    display: none;
+  }
+
+  .nav-user-options {
+    gap: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .fa-magnifying-glass,
+  .fa-bars {
+    display: inline;
+  }
+
+  .fa-bars {
+    margin-right: 15%;
+  }
+
+  /* Hero */
+  .hero {
+    background-image: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: #f0f0f0;
+  }
+
+  .hero h1:first-child {
+    font-size: 2.75rem;
+    margin-bottom: 5%;
+    margin-inline: 4%;
+  }
+
+  .hero p {
+    margin-inline-start: 4%;
+    overflow-wrap: break-word;
+    margin-bottom: 5%;
+  }
+
+  .hero button {
+    margin-inline: 4%;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .hero-stats {
+    margin-inline: 4%;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .hero-stats div:first-child {
+    gap: 1rem;
+  }
+
+  .hero-stats div:first-child hr {
+    margin-right: 2rem;
+  }
+
+  .hero-stats div:first-child div h1 {
+    font-size: 2rem;
+  }
+
+  .hero-stats div:last-child div h1 {
+    font-size: 2rem;
+  }
+
+  .hero-stats div:first-child div {
+    width: 9rem;
+    gap: 0;
+  }
+
+  .hero-stats div:last-child div {
+    width: 9rem;
+    gap: 0;
+  }
+
+  .hero-stats hr:nth-child(4) {
+    display: none;
+  }
+
+  /* Mobile Hero */
+  .mobile-hero {
+    display: block;
+    background-image: url("./assets/hero_mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 30rem;
+  }
+
+  /* Top Brands  */
+  .top-brands {
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-block: 2rem;
+    margin-bottom: 20%;
+  }
+
+  .top-brands img {
+    width: 5rem;
+  }
+
+  /* New Arrivals & Top Sellers */
+  .brands-heading {
+    margin-right: 8%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    font-size: 2rem;
+  }
+
+  .brands-cards {
+    overflow-y: hidden;
+    margin-inline: 8%;
+  }
+
+  .brands-button {
+    margin-inline: 12.5%;
+    width: 75%;
+    margin-block: 15%;
+  }
+
+  /* Dress Style */
+  .dress-style {
+    margin: 10% 8% 0 8%;
+    padding: 2rem 2rem 2rem 1.5rem;
+    width: fit-content;
+  }
+
+  .dress-style-cards-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 5%;
+  }
+
+  .dress-style-cards-row img {
+    width: 16rem;
+    margin: 0 1% 0 1%;
+  }
+
+  /* Happy Customers */
+  .happy-customers-heading {
+    width: fit-content;
+    margin-right: 8%;
+    margin-top: 15%;
+  }
+
+  .happy-customer-title {
+    font-size: 2rem;
+  }
+
+  .happy-customers-body {
+    margin: 4% 8% 5% 8%;
+    overflow-y: hidden;
+  }
+
+  /* Latest Offers */
+  .latest-offers {
+    flex-direction: column;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    margin-inline: 8%;
+    margin-top: 15%;
+  }
+
+  .latest-offers-options {
+    margin-top: 2rem;
+    width: max-content;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 10rem;
+    margin-top: 60%;
+  }
+
+  .footer-hero {
+    flex-direction: column;
+  }
+
+  .footer-hero div:first-child {
+    margin-top: 3rem;
+  }
+
+  .footer-end {
+    flex-direction: column;
+  }
+
+  .footer-end-data {
+    margin-top: 1rem;
+  }
+
+  .footer-end-badges {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0.5rem 0 4rem 0;
+  }
+}
